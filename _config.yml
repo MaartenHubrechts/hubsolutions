@@ -10,7 +10,7 @@
 title: "Tokyo - Portfolio Theme"
 email: "themeix@gmail.com"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# url: "" # the base hostname & protocol for your site, e.g. http://example.com
 logo: /assets/images/header-brand.png
 description: "Tokyo is a responsive Jekyll template for your personal portfolio website"
 keywords: "jekyll, minimal jekyll, jekyll theme, responsive jekyll, seo friendly blog, super fast blog, responsive"

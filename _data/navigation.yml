@@ -2,9 +2,9 @@
   url: home
 - text: About
   url: about
-- text: Portfolio
-  url: portfolio
-- text: News
-  url: news
+# - text: Portfolio
+#   url: portfolio
+# - text: News
+#   url: news
 - text: Contact
   url: contact

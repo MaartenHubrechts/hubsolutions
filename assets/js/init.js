@@ -42,6 +42,10 @@ jQuery(document).ready(function () {
 function tokyo_tm_color_switcher() {
 	"use strict";
 
+	if(!localStorage.getItem('tk_color')){
+		localStorage.setItem('tk_color', 'blue');
+	}
+
 	var list = jQuery('.tokyo_tm_settings .tk-unlimited-colors li a');
 
 	list.on('click', function () {
@@ -54,8 +58,6 @@ function tokyo_tm_color_switcher() {
 
 		if (typeof (Storage) !== "undefined") {
 			localStorage.setItem('tk_color', elval);
-		} else {
-			localStorage.setItem('tk_color', 'blue');
 		}
 		thisEl.closest('.tokyo_tm_all_wrap').attr('data-color', '' + elval + '');
 		return false;

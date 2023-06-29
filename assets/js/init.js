@@ -54,6 +54,8 @@ function tokyo_tm_color_switcher() {
 
 		if (typeof (Storage) !== "undefined") {
 			localStorage.setItem('tk_color', elval);
+		} else {
+			localStorage.setItem('tk_color', 'blue');
 		}
 		thisEl.closest('.tokyo_tm_all_wrap').attr('data-color', '' + elval + '');
 		return false;

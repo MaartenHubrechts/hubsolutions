@@ -266,6 +266,22 @@ h6 {
 	}
 }
 
+.tech {
+	margin: 10px;
+}
+  
+.user {
+	text-align: center;
+	font-size: 60px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	p {
+	  font-size: 16px;
+	}
+}
+
 /*---------------------------------------------------*/
 
 /*	02) TOKYO MOBILE MENU

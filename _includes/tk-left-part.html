@@ -14,6 +14,7 @@
                     {% assign x = x | plus:1 %}
                     <li {% if x == 1% %} class="active" {% endif %}><a href="#{{navigation.url}}">{{navigation.text}}</a></li>
                 {% endfor %}
+                <li><a href="{{'/assets/pdf/cv.pdf' | relative_url}}"><img target="_blank">Download CV</a></li>
             </ul>
         </div>
         <div class="copyright">

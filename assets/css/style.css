@@ -22,16 +22,14 @@
 /*	01) TOKYO BASE
 /*---------------------------------------------------*/
 
-.tokyo_tm_about .entries {
+/* .tokyo_tm_about .entries {
 	  width:calc(100% - 80px);
-	  /* width:calc(90%); */
 	  max-width:800px;
 	  margin:auto;
 	  position: relative;
 	  left:-5px;
 	.entry {
 		width:calc(50% - 80px);
-		/* width:calc(45%); */
 		float:left; 
 		padding:20px;
 		clear:both;
@@ -82,7 +80,56 @@
 		  }
 		}
 	}
-}
+} */
+
+@media (max-width: 480px) {
+	.tokyo_tm_about .entries {
+	  width: 100%;
+	  max-width: none;
+	  padding: 0;
+	}
+  
+	.tokyo_tm_about .entries .entry {
+	  width: 100%;
+	  float: none;
+	  margin: 0;
+	  padding: 20px;
+	  text-align: left;
+	}
+  
+	.tokyo_tm_about .entries .entry .title {
+	  text-align: left;
+	  font-size: 24px;
+	  margin-bottom: 8px;
+	  position: relative;
+	  color: #1D1D1D;
+	  &:before {
+		content: '';
+		position: absolute;
+		width: 6px;
+		height: 6px;
+		border: 3px solid #4169e1;
+		background-color: #F8F8F8;
+		border-radius: 100%;
+		top: 50%;
+		transform: translateY(-50%);
+		left: -47px;
+		z-index: 1000;
+	  }
+	  &.big:before {
+		width: 18px;
+		height: 18px;
+		transform: translate(6px, -50%);
+	  }
+	}
+  
+	.tokyo_tm_about .entries .entry .body {
+	  color: #aaa;
+	  p {
+		line-height: 1.3em;
+	  }
+	}
+  }
 
 
 

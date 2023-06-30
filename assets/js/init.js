@@ -11,7 +11,7 @@ jQuery(document).ready(function () {
 
 	// here all ready functions
 
-	tokyo_tm_color_switcher();
+	// tokyo_tm_color_switcher();
 	// tokyo_tm_switcher_opener();
 	tokyo_tm_cursor_switcher();
 	tokyo_tm_menu();

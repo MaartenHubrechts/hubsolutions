@@ -1,7 +1,7 @@
 - text: Home
   url: home
-- text: About
-  url: about
+# - text: About
+#   url: about
 # - text: Portfolio
 #   url: portfolio
 # - text: News

@@ -592,15 +592,19 @@ h6 {
 	font-size: 55px;
 	font-weight: 800;
 	text-transform: uppercase;
-	margin-bottom: 14px;
+	margin: 0 auto; /* Add this line to center the text horizontally */
+    margin-bottom: 14px;
+    text-align: center; /* Add this line to center the text horizontally */
 }
 
 .tokyo_tm_home .details .job {
-	font-family: "Montserrat";
-	font-style: italic;
-	font-weight: 500;
-	max-width: 450px;
-	margin-bottom: 30px;
+    font-family: "Montserrat";
+    font-style: italic;
+    font-weight: 500;
+    max-width: 450px;
+    margin: 0 auto; /* Add this line to center the text horizontally */
+    margin-bottom: 30px;
+    text-align: center; /* Add this line to center the text horizontally */
 }
 
 .tokyo_tm_home .social {

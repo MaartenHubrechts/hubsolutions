@@ -1,14 +1,14 @@
 home:
   profile_name: Maarten <span>Hubrechts</span>
   profile_img: "/assets/img/slider/Profiel_1-modified.jpg"
-  bio: "Freelance Data Engineer/Architect based in Mechelen. My passion lies in leveraging the power of data to provide valuable data-driven tools to customers, as well as empowering businesses in making informed and strategic decisions."
+  bio: "Freelance Data Engineer/Architect based in Mechelen. My passion lies in building valuable data-driven tools to empower businesses in making informed decisions or provide users with an enhanced user experience. I have proven expertise in designing efficient data pipelines, facilitating seamless cloud migration, and implementing overall robust data analytics solutions."
   social:
     facebook: "http://facebook.com"
     twitter: "http://twitter.com"
     instagram: "http://instagram.com"
     dribbble: "http://dribble.com"
     tiktok: "http://tiktok.com"
-    linkedin: "https://www.linkedin.com/in/maarten-hubrechts-710ab1133/"
+    linkedin: "https://www.linkedin.com/in/maarten-hubrechts"
 
 about:
   title: "Adriano Smith & <span>Photographer</span>"

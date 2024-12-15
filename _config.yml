@@ -9,8 +9,8 @@
 # Site settings
 title: "HUBSolutions"
 email: "maarten.hubrechts@hotmail.com"
-baseurl: "/hubsolutions"
-url: "https://maartenhubrechts.github.io"
+baseurl: ""
+url: "url: "https://www.hubsolutions.be"
 logo: /assets/images/header-brand.png
 description: ""
 keywords: "maarten hubrechts, data engineer, data architect, mechelen, responsive"

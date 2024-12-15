@@ -13,7 +13,7 @@ jQuery(document).ready(function () {
 
 	// tokyo_tm_color_switcher();
 	// tokyo_tm_switcher_opener();
-	tokyo_tm_cursor_switcher();
+	// tokyo_tm_cursor_switcher();
 	// tokyo_tm_menu();
 	tokyo_tm_modalbox_news();
 	tokyo_tm_popupscroll();
@@ -21,7 +21,7 @@ jQuery(document).ready(function () {
 	tokyo_tm_popupscroll_about();
 	tokyo_tm_projects();
 	tokyo_tm_portfolio();
-	tokyo_tm_cursor();
+	// tokyo_tm_cursor();
 	tokyo_tm_imgtosvg();
 	tokyo_tm_popup();
 	tokyo_tm_data_images();

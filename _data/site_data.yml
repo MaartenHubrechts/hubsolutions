@@ -1,7 +1,7 @@
 home:
   profile_name: Maarten <span>Hubrechts</span>
   profile_img: "/assets/img/slider/Profiel_1-modified.jpg"
-  bio: "Freelance Data Engineer/Architect based in Mechelen. My passion lies in building valuable data-driven tools to empower businesses in making informed decisions or provide users with an enhanced user experience. I have proven expertise in designing efficient data pipelines, facilitating seamless cloud migration, and implementing overall robust data analytics solutions."
+  bio: "Freelance Data Engineer/Architect based in Mechelen, specializing in building scalable data-driven solutions. Experienced in designing efficient data pipelines, migrating from on-prem to the public cloud, and collaborating with data scientists to deploy AI solutions at scale."
   social:
     facebook: "http://facebook.com"
     twitter: "http://twitter.com"
